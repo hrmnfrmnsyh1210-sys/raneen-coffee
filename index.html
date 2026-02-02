@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Raneen Coffee - Pontianak</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Raneen<span>Coffee</span></a>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#menu">Menu</a></li>
+                <li><a href="#library">Library</a></li>
+                <li><a href="#reviews">Reviews</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-overlay"></div>
+        <div class="container hero-content">
+            <p class="hero-subtitle">Welcome to</p>
+            <h1 class="hero-title">Raneen Coffee</h1>
+            <p class="hero-desc">Nikmati kopi terbaik sambil membaca buku favorit Anda.<br>Tempat sempurna untuk relaksasi dan inspirasi.</p>
+            <div class="hero-badges">
+                <div class="badge">
+                    <span class="badge-icon">&#9733;</span>
+                    <span>4.9 Rating</span>
+                </div>
+                <div class="badge">
+                    <span class="badge-icon">&#128218;</span>
+                    <span>Online Library</span>
+                </div>
+                <div class="badge">
+                    <span class="badge-icon">&#9749;</span>
+                    <span>Rp 25-50K</span>
+                </div>
+            </div>
+            <div class="hero-actions">
+                <a href="#menu" class="btn btn-primary">Lihat Menu</a>
+                <a href="#library" class="btn btn-outline">Baca Buku</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services -->
+    <section class="services">
+        <div class="container">
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">&#127869;</div>
+                    <h3>Dine-in</h3>
+                    <p>Nikmati suasana kafe yang nyaman</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#128230;</div>
+                    <h3>Takeaway</h3>
+                    <p>Bawa pulang kopi favorit Anda</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#128666;</div>
+                    <h3>Delivery</h3>
+                    <p>Kami antar langsung ke lokasi Anda</p>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">&#128214;</div>
+                    <h3>Online Library</h3>
+                    <p>Baca buku gratis dari device Anda</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section class="section menu-section" id="menu">
+        <div class="container">
+            <h2 class="section-title">Our Menu</h2>
+            <p class="section-subtitle">Pilihan kopi dan makanan terbaik untuk menemani hari Anda</p>
+
+            <div class="menu-tabs">
+                <button class="menu-tab active" data-category="coffee">Coffee</button>
+                <button class="menu-tab" data-category="non-coffee">Non-Coffee</button>
+                <button class="menu-tab" data-category="food">Food</button>
+                <button class="menu-tab" data-category="dessert">Dessert</button>
+            </div>
+
+            <div class="menu-grid" id="menuGrid">
+                <!-- Coffee -->
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #3e2723, #6d4c41);">&#9749;</div>
+                    <div class="menu-info">
+                        <h3>Espresso</h3>
+                        <p>Double shot espresso dengan crema sempurna</p>
+                        <span class="menu-price">Rp 18.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #4e342e, #8d6e63);">&#9749;</div>
+                    <div class="menu-info">
+                        <h3>Cappuccino</h3>
+                        <p>Espresso dengan steamed milk dan foam lembut</p>
+                        <span class="menu-price">Rp 25.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #5d4037, #a1887f);">&#9749;</div>
+                    <div class="menu-info">
+                        <h3>Cafe Latte</h3>
+                        <p>Espresso dengan susu steamed yang creamy</p>
+                        <span class="menu-price">Rp 28.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #3e2723, #795548);">&#9749;</div>
+                    <div class="menu-info">
+                        <h3>Americano</h3>
+                        <p>Espresso dengan air panas, bold dan smooth</p>
+                        <span class="menu-price">Rp 20.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #4e342e, #a1887f);">&#9749;</div>
+                    <div class="menu-info">
+                        <h3>Mocha</h3>
+                        <p>Espresso, cokelat, dan steamed milk</p>
+                        <span class="menu-price">Rp 30.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #6d4c41, #d7ccc8);">&#9749;</div>
+                    <div class="menu-info">
+                        <h3>Affogato</h3>
+                        <p>Espresso dituang di atas vanilla ice cream</p>
+                        <span class="menu-price">Rp 32.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #3e2723, #8d6e63);">&#9749;</div>
+                    <div class="menu-info">
+                        <h3>V60 Pour Over</h3>
+                        <p>Single origin hand drip coffee</p>
+                        <span class="menu-price">Rp 35.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="coffee">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #5d4037, #bcaaa4);">&#9749;</div>
+                    <div class="menu-info">
+                        <h3>Es Kopi Susu Raneen</h3>
+                        <p>Signature blend dengan gula aren dan susu segar</p>
+                        <span class="menu-price">Rp 25.000</span>
+                    </div>
+                </div>
+
+                <!-- Non-Coffee -->
+                <div class="menu-card" data-category="non-coffee" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #1b5e20, #66bb6a);">&#127861;</div>
+                    <div class="menu-info">
+                        <h3>Matcha Latte</h3>
+                        <p>Premium Japanese matcha dengan susu segar</p>
+                        <span class="menu-price">Rp 28.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="non-coffee" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #b71c1c, #ef5350);">&#127861;</div>
+                    <div class="menu-info">
+                        <h3>Red Velvet Latte</h3>
+                        <p>Creamy red velvet dengan topping cream</p>
+                        <span class="menu-price">Rp 28.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="non-coffee" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #e65100, #ffb74d);">&#127861;</div>
+                    <div class="menu-info">
+                        <h3>Thai Tea</h3>
+                        <p>Teh Thailand klasik yang manis dan creamy</p>
+                        <span class="menu-price">Rp 22.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="non-coffee" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #4a148c, #ce93d8);">&#127861;</div>
+                    <div class="menu-info">
+                        <h3>Taro Latte</h3>
+                        <p>Creamy taro dengan susu segar</p>
+                        <span class="menu-price">Rp 25.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="non-coffee" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #f57f17, #fff176);">&#127863;</div>
+                    <div class="menu-info">
+                        <h3>Lemon Tea</h3>
+                        <p>Teh segar dengan perasan lemon asli</p>
+                        <span class="menu-price">Rp 18.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="non-coffee" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #bf360c, #ff8a65);">&#129380;</div>
+                    <div class="menu-info">
+                        <h3>Cokelat Panas</h3>
+                        <p>Rich dark chocolate dengan marshmallow</p>
+                        <span class="menu-price">Rp 25.000</span>
+                    </div>
+                </div>
+
+                <!-- Food -->
+                <div class="menu-card" data-category="food" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #e65100, #ff9800);">&#127828;</div>
+                    <div class="menu-info">
+                        <h3>Chicken Sandwich</h3>
+                        <p>Grilled chicken dengan sayuran segar</p>
+                        <span class="menu-price">Rp 35.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="food" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #ff6f00, #ffca28);">&#127829;</div>
+                    <div class="menu-info">
+                        <h3>Beef Burger</h3>
+                        <p>Juicy beef patty dengan cheese dan saus spesial</p>
+                        <span class="menu-price">Rp 42.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="food" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #827717, #c0ca33);">&#127835;</div>
+                    <div class="menu-info">
+                        <h3>Nasi Goreng Raneen</h3>
+                        <p>Nasi goreng spesial dengan telur dan ayam</p>
+                        <span class="menu-price">Rp 30.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="food" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #d84315, #ff8a65);">&#127839;</div>
+                    <div class="menu-info">
+                        <h3>French Fries</h3>
+                        <p>Crispy fries dengan pilihan saus</p>
+                        <span class="menu-price">Rp 20.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="food" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #33691e, #aed581);">&#129386;</div>
+                    <div class="menu-info">
+                        <h3>Roti Bakar</h3>
+                        <p>Roti panggang dengan selai dan keju</p>
+                        <span class="menu-price">Rp 18.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="food" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #f9a825, #fff59d);">&#129366;</div>
+                    <div class="menu-info">
+                        <h3>Pasta Aglio Olio</h3>
+                        <p>Spaghetti dengan garlic, chili, dan olive oil</p>
+                        <span class="menu-price">Rp 38.000</span>
+                    </div>
+                </div>
+
+                <!-- Dessert -->
+                <div class="menu-card" data-category="dessert" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #880e4f, #f48fb1);">&#127856;</div>
+                    <div class="menu-info">
+                        <h3>Cheesecake</h3>
+                        <p>New York style cheesecake lembut</p>
+                        <span class="menu-price">Rp 32.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="dessert" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #4e342e, #a1887f);">&#127852;</div>
+                    <div class="menu-info">
+                        <h3>Brownies</h3>
+                        <p>Fudgy chocolate brownies dengan walnut</p>
+                        <span class="menu-price">Rp 25.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="dessert" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #f8bbd0, #fce4ec);">&#127846;</div>
+                    <div class="menu-info">
+                        <h3>Croissant</h3>
+                        <p>Butter croissant renyah dan berlapis</p>
+                        <span class="menu-price">Rp 22.000</span>
+                    </div>
+                </div>
+                <div class="menu-card" data-category="dessert" style="display:none;">
+                    <div class="menu-img" style="background: linear-gradient(135deg, #ff6f00, #ffe0b2);">&#127849;</div>
+                    <div class="menu-info">
+                        <h3>Waffle</h3>
+                        <p>Crispy waffle dengan ice cream dan maple syrup</p>
+                        <span class="menu-price">Rp 35.000</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Library Section -->
+    <section class="section library-section" id="library">
+        <div class="container">
+            <h2 class="section-title">Online Library</h2>
+            <p class="section-subtitle">Baca buku favorit Anda langsung dari device masing-masing. Gratis untuk semua pelanggan Raneen Coffee!</p>
+
+            <div class="library-search">
+                <input type="text" id="bookSearch" placeholder="Cari judul buku atau penulis..." class="search-input">
+            </div>
+
+            <div class="library-tabs">
+                <button class="lib-tab active" data-genre="all">Semua</button>
+                <button class="lib-tab" data-genre="fiksi">Fiksi</button>
+                <button class="lib-tab" data-genre="non-fiksi">Non-Fiksi</button>
+                <button class="lib-tab" data-genre="self-help">Self-Help</button>
+                <button class="lib-tab" data-genre="sastra">Sastra</button>
+                <button class="lib-tab" data-genre="bisnis">Bisnis</button>
+            </div>
+
+            <div class="book-grid" id="bookGrid">
+                <!-- Books will be injected by JS -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Book Reader Modal -->
+    <div class="modal-overlay" id="readerModal">
+        <div class="reader-modal">
+            <div class="reader-header">
+                <h3 id="readerTitle">Judul Buku</h3>
+                <div class="reader-controls">
+                    <button class="reader-btn" id="fontDecrease" title="Perkecil font">A-</button>
+                    <button class="reader-btn" id="fontIncrease" title="Perbesar font">A+</button>
+                    <button class="reader-btn" id="themeToggle" title="Mode gelap">&#127769;</button>
+                    <button class="reader-btn close-btn" id="closeReader">&times;</button>
+                </div>
+            </div>
+            <div class="reader-body" id="readerBody">
+                <div class="reader-content" id="readerContent"></div>
+            </div>
+            <div class="reader-footer">
+                <button class="btn btn-sm" id="prevChapter">&#8592; Sebelumnya</button>
+                <span id="chapterInfo">Bab 1 dari 5</span>
+                <button class="btn btn-sm" id="nextChapter">Selanjutnya &#8594;</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Reviews Section -->
+    <section class="section reviews-section" id="reviews">
+        <div class="container">
+            <h2 class="section-title">Reviews</h2>
+            <p class="section-subtitle">Apa kata pelanggan kami</p>
+
+            <div class="rating-summary">
+                <div class="rating-big">
+                    <span class="rating-number">4.9</span>
+                    <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                    <span class="rating-count">51 ulasan</span>
+                </div>
+            </div>
+
+            <div class="reviews-grid">
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">A</div>
+                        <div>
+                            <h4>Aisyah R.</h4>
+                            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                    <p>"Tempatnya cozy banget! Kopi susunya enak dan fitur baca buku online-nya keren. Betah berlama-lama di sini."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">B</div>
+                        <div>
+                            <h4>Budi S.</h4>
+                            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                    <p>"Recommended! Harganya terjangkau, kopi V60-nya juara. Plus bisa baca buku dari HP, cocok buat yang suka me-time."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">C</div>
+                        <div>
+                            <h4>Citra M.</h4>
+                            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                    <p>"Sering ke sini buat kerja remote. WiFi kenceng, kopi enak, dan sekarang ada perpustakaan digital. Lengkap!"</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">D</div>
+                        <div>
+                            <h4>Dimas P.</h4>
+                            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+                        </div>
+                    </div>
+                    <p>"Suasananya tenang dan nyaman. Brownies-nya enak banget. Koleksi buku digitalnya juga lumayan banyak."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">E</div>
+                        <div>
+                            <h4>Eka W.</h4>
+                            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                    <p>"Kafe terbaik di Pontianak! Konsepnya unik, bisa ngopi sambil baca buku. Pelayanannya ramah dan cepat."</p>
+                </div>
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="reviewer-avatar">F</div>
+                        <div>
+                            <h4>Fitri A.</h4>
+                            <div class="review-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                        </div>
+                    </div>
+                    <p>"Es kopi susu Raneen favorit! Tempatnya Instagramable dan fitur perpustakaan online-nya bikin betah."</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="section about-section" id="about">
+        <div class="container">
+            <div class="about-grid">
+                <div class="about-text">
+                    <h2 class="section-title text-left">About Raneen Coffee</h2>
+                    <p>Raneen Coffee adalah kafe yang menggabungkan pengalaman menikmati kopi berkualitas dengan kecintaan terhadap literasi. Kami percaya bahwa secangkir kopi yang baik menjadi sempurna ketika ditemani bacaan yang menginspirasi.</p>
+                    <p>Dengan konsep unik <strong>"Sip & Read"</strong>, pelanggan kami dapat mengakses perpustakaan digital kami secara gratis melalui device masing-masing. Dari novel, buku self-help, hingga literatur bisnis, semua tersedia untuk menemani waktu ngopi Anda.</p>
+                    <div class="about-features">
+                        <div class="about-feature">
+                            <span>&#9749;</span>
+                            <div>
+                                <h4>Premium Coffee</h4>
+                                <p>Biji kopi pilihan dari seluruh Nusantara</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <span>&#128218;</span>
+                            <div>
+                                <h4>100+ Buku Digital</h4>
+                                <p>Koleksi yang terus bertambah setiap bulan</p>
+                            </div>
+                        </div>
+                        <div class="about-feature">
+                            <span>&#128246;</span>
+                            <div>
+                                <h4>Free WiFi</h4>
+                                <p>Koneksi cepat untuk browsing dan membaca</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="about-img-placeholder">
+                        <div class="about-img-text">
+                            <span>&#9749;</span>
+                            <p>Sip & Read</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section contact-section" id="contact">
+        <div class="container">
+            <h2 class="section-title">Kunjungi Kami</h2>
+            <p class="section-subtitle">Kami menunggu kedatangan Anda</p>
+
+            <div class="contact-grid">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128205;</div>
+                        <div>
+                            <h4>Alamat</h4>
+                            <p>Jl. WR Supratman B4-5, Benua Melayu Darat,<br>Kec. Pontianak Sel., Kota Pontianak,<br>Kalimantan Barat 78243</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128222;</div>
+                        <div>
+                            <h4>Telepon</h4>
+                            <p>0822-5424-6819</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128337;</div>
+                        <div>
+                            <h4>Jam Buka</h4>
+                            <p>Setiap hari: 10:00 - 00:00</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">&#128176;</div>
+                        <div>
+                            <h4>Harga</h4>
+                            <p>Rp 25.000 - 50.000 per orang</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3989.8175!2d109.3323!3d-0.0356!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sX87Q%2BPP+Benua+Melayu+Darat!5e0!3m2!1sid!2sid!4v1700000000000"
+                        width="100%" height="350" style="border:0; border-radius: 12px;" allowfullscreen="" loading="lazy">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3 class="logo">Raneen<span>Coffee</span></h3>
+                    <p>Kopi berkualitas & bacaan menginspirasi. Tempat sempurna untuk relaksasi dan produktivitas.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Quick Links</h4>
+                    <a href="#home">Home</a>
+                    <a href="#menu">Menu</a>
+                    <a href="#library">Library</a>
+                    <a href="#reviews">Reviews</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Layanan</h4>
+                    <a href="#">Dine-in</a>
+                    <a href="#">Takeaway</a>
+                    <a href="#">Delivery</a>
+                    <a href="#library">Online Library</a>
+                </div>
+                <div class="footer-links">
+                    <h4>Kontak</h4>
+                    <a href="tel:082254246819">0822-5424-6819</a>
+                    <a href="#">Instagram</a>
+                    <a href="#">Facebook</a>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Raneen Coffee. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
