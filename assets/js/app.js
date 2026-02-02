@@ -45,7 +45,7 @@ const books = [
         author: "Andrea Hirata",
         genre: "fiksi",
         color: "#1565C0",
-        cover: "https://covers.openlibrary.org/b/isbn/9789793062792-L.jpg",
+        cover: "https://books.google.com/books/content?id=S0ZNe2iqM54C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Sepuluh Murid Baru", content: "<h2>Bab 1: Sepuluh Murid Baru</h2><p>Pagi itu, sepuluh anak Melayu Belitong berkumpul di sebuah sekolah tua yang hampir roboh. Mereka adalah murid-murid baru SD Muhammadiyah yang dipimpin oleh Bu Muslimah, seorang guru muda yang penuh semangat.</p><p>Sekolah itu berdiri kokoh meski dimakan usia. Atapnya bocor di sana-sini, dindingnya retak, dan lantainya sudah tidak rata. Tapi di dalam sekolah itulah, sepuluh anak ini akan menemukan arti sesungguhnya dari persahabatan dan perjuangan.</p><p>Lintang, anak nelayan dari pesisir pantai, harus menempuh perjalanan 80 kilometer setiap hari untuk bisa sampai ke sekolah. Ia bangun sebelum subuh, mengayuh sepeda tuanya melewati jalan berlubang dan hutan yang gelap.</p><p>\"Pendidikan adalah jendela dunia,\" kata Bu Muslimah pada hari pertama mereka. Kata-kata itu terukir dalam di hati setiap muridnya.</p><p>Ikal, sang narator, duduk di bangku paling depan. Matanya berbinar menatap papan tulis yang sudah kusam. Ia tahu bahwa di sekolah inilah masa depannya akan dimulai.</p>" },
             { title: "Bab 2: Lintang dan Harimau", content: "<h2>Bab 2: Lintang dan Harimau</h2><p>Lintang Samudra Basara bin Raja Muda Husin adalah murid paling cerdas di kelas. Otaknya cemerlang seperti bintang di langit malam Belitong.</p><p>Setiap pagi, ia mengayuh sepedanya melintasi hutan bakau yang lebat. Suatu hari, ia bertemu seekor buaya besar yang menghalangi jalannya. Dengan tenang, ia menunggu hingga buaya itu pergi.</p><p>\"Aku tidak boleh takut,\" katanya pada diri sendiri. \"Bu Muslimah menunggu di sekolah.\"</p><p>Perjalanannya tidak pernah mudah. Hujan lebat, jalan berlumpur, bahkan ancaman binatang buas tidak bisa menghentikan tekadnya untuk belajar. Baginya, sekolah adalah segalanya.</p><p>Di kelas, Lintang selalu yang pertama mengangkat tangan ketika Bu Muslimah mengajukan pertanyaan. Jawaban-jawabannya selalu tepat dan mendalam, membuat teman-temannya kagum.</p>" },
@@ -74,7 +74,7 @@ const books = [
         author: "Pramoedya Ananta Toer",
         genre: "sastra",
         color: "#C62828",
-        cover: "https://covers.openlibrary.org/b/isbn/9799731232-L.jpg",
+        cover: "https://books.google.com/books/content?id=9DA5DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Minke", content: "<h2>Bab 1: Minke</h2><p>Aku, Minke, seorang pribumi yang beruntung bisa bersekolah di HBS—Hogere Burger School, sekolah untuk kaum Eropa di Hindia Belanda. Di sana aku belajar ilmu pengetahuan modern, bahasa Belanda, dan cara berpikir Barat.</p><p>Tapi aku tetaplah seorang Jawa. Darah Jawa mengalir di nadiku, dan adat istiadat Jawa tertanam dalam jiwaku. Di antara dua dunia inilah aku hidup—dunia modern Eropa dan dunia tradisional Jawa.</p><p>Tahun itu, tahun yang mengubah seluruh hidupku, dimulai ketika aku diajak temanku Robert Suurhof untuk mengunjungi sebuah rumah mewah di Wonokromo, Surabaya.</p><p>\"Kau harus bertemu Nyai Ontosoroh,\" kata Robert dengan nada misterius. \"Dia bukan nyai biasa.\"</p><p>Aku tidak tahu bahwa kunjungan itu akan membuka babak baru dalam hidupku. Babak yang penuh gairah, perjuangan, dan air mata.</p>" },
             { title: "Bab 2: Nyai Ontosoroh", content: "<h2>Bab 2: Nyai Ontosoroh</h2><p>Nyai Ontosoroh. Nama itu bergema di seluruh Surabaya. Seorang perempuan pribumi yang menjalankan perusahaan besar milik Tuan Herman Mellema, seorang Belanda.</p><p>Ketika aku pertama kali melihatnya, aku terpesona. Bukan hanya karena kecantikannya, tapi karena pancaran kecerdasan dan kekuatan yang terpancar dari matanya.</p><p>\"Selamat datang di rumah kami, Tuan Minke,\" sapanya dalam bahasa Melayu yang fasih. Suaranya tenang tapi penuh wibawa.</p><p>Di balik gelar \"Nyai\" yang dianggap hina oleh masyarakat, tersimpan seorang perempuan yang luar biasa. Ia mengurus bisnis, mendidik anak-anaknya, dan menghadapi diskriminasi dengan kepala tegak.</p><p>\"Aku tidak pernah memilih untuk menjadi nyai,\" katanya suatu malam. \"Tapi aku memilih untuk tidak membiarkan nasibku menghancurkanku.\"</p>" },
@@ -101,7 +101,7 @@ const books = [
         author: "Leila S. Chudori",
         genre: "fiksi",
         color: "#0277BD",
-        cover: "https://covers.openlibrary.org/b/isbn/9786024246945-L.jpg",
+        cover: "https://books.google.com/books/content?id=e-ZDDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Biru Laut", content: "<h2>Bab 1: Biru Laut</h2><p>Laut Biru Laut. Nama yang indah untuk seorang pemuda yang hidupnya jauh dari keindahan. Aku adalah mahasiswa yang percaya bahwa perubahan dimulai dari keberanian untuk bicara.</p><p>Di kampusku, kami membentuk kelompok diskusi kecil. Kami membaca buku-buku yang dilarang, mendiskusikan ide-ide yang dianggap berbahaya, dan bermimpi tentang Indonesia yang lebih adil.</p><p>\"Kebenaran tidak bisa dibungkam selamanya,\" kata Alex, sahabatku, sambil menyalakan rokok kreteknya. Asapnya melayang di udara malam yang dingin, seperti harapan-harapan kami yang rapuh.</p><p>Kami tahu risikonya. Di luar sana, mata-mata mengintai di setiap sudut. Teman-teman kami menghilang satu per satu tanpa jejak. Tapi kami tetap bertemu, tetap berdiskusi, tetap bermimpi.</p><p>Karena berhenti bermimpi sama artinya dengan mati.</p>" },
             { title: "Bab 2: Suara yang Hilang", content: "<h2>Bab 2: Suara yang Hilang</h2><p>Mereka datang pada dini hari, ketika dunia masih tertidur. Pintu kamar kosku didobrak. Mata-mata gelap menyerbuku dari segala arah.</p><p>\"Ikut kami,\" kata sebuah suara tanpa wajah. Dingin. Tanpa emosi. Seperti mesin yang diprogram untuk menghancurkan.</p><p>Aku tidak diberi kesempatan untuk bertanya. Tidak ada surat penangkapan. Tidak ada alasan resmi. Hanya kegelapan yang menelan seluruh eksistensiku.</p><p>Di tempat itu—tempat yang tak memiliki nama dan tak ada di peta manapun—aku bertemu dengan wajah-wajah yang sama ketakutannya denganku. Mahasiswa, aktivis, guru, bahkan petani yang mungkin hanya kebetulan berada di tempat yang salah pada waktu yang salah.</p><p>Kami semua memiliki satu kesamaan: suara kami telah direnggut. Dan kami tidak tahu apakah kami akan pernah mendapatkannya kembali.</p>" },
@@ -114,7 +114,7 @@ const books = [
         author: "Robert T. Kiyosaki",
         genre: "bisnis",
         color: "#6A1B9A",
-        cover: "https://covers.openlibrary.org/b/isbn/9781612680194-L.jpg",
+        cover: "https://books.google.com/books/content?id=kRqeDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Dua Ayah", content: "<h2>Bab 1: Dua Ayah</h2><p>Aku memiliki dua ayah: satu kaya, satu miskin. Ayah kandungku adalah seorang profesor berpendidikan tinggi—ia adalah 'Ayah Miskin'. Ayah dari sahabatku Mike adalah seorang pengusaha tanpa gelar sarjana—ia adalah 'Ayah Kaya'.</p><p>Keduanya bekerja keras. Keduanya berpenghasilan besar. Tapi pandangan mereka tentang uang sangat berbeda.</p><p>Ayah Miskin berkata: \"Cintai pekerjaanmu.\" Ayah Kaya berkata: \"Cintai kebebasanmu.\"</p><p>Ayah Miskin berkata: \"Aku tidak mampu membelinya.\" Ayah Kaya berkata: \"Bagaimana caranya agar aku mampu membelinya?\"</p><p>Perbedaan kecil dalam kata-kata ini menciptakan perbedaan besar dalam kehidupan finansial mereka. Satu pertanyaan menutup pikiran, yang lain membuka kemungkinan.</p><p>Sejak usia 9 tahun, aku memutuskan untuk belajar dari keduanya, dan memilih sendiri jalan mana yang akan kuambil.</p>" },
             { title: "Bab 2: Orang Kaya Tidak Bekerja untuk Uang", content: "<h2>Bab 2: Orang Kaya Tidak Bekerja untuk Uang</h2><p>Pelajaran pertama dari Ayah Kaya datang dalam cara yang tidak terduga. Ia mempekerjakan aku dan Mike di tokonya dengan upah yang sangat kecil—10 sen per jam.</p><p>Setelah beberapa minggu, aku marah dan ingin berhenti. \"Kau berjanji akan mengajariku tentang uang, tapi kau hanya mengeksploitasiku!\" protesku.</p><p>Ayah Kaya tersenyum. \"Kau baru saja merasakan apa yang dirasakan jutaan orang setiap hari. Mereka bekerja keras, merasa tidak dihargai, dan menuntut bayaran lebih tinggi. Lingkaran ini tidak pernah berakhir.\"</p><p>Pelajarannya sederhana tapi mengubah segalanya: orang miskin dan kelas menengah bekerja untuk uang. Orang kaya membuat uang bekerja untuk mereka.</p><p>\"Jika kau tidak bisa menghasilkan uang tanpa pekerjaan, kau akan menghabiskan seluruh hidupmu bekerja untuk orang lain,\" kata Ayah Kaya sambil menunjuk laporan keuangannya.</p>" },
@@ -127,7 +127,7 @@ const books = [
         author: "Dee Lestari",
         genre: "fiksi",
         color: "#00695C",
-        cover: "https://covers.openlibrary.org/b/isbn/9789792257588-L.jpg",
+        cover: "https://books.google.com/books/content?id=kiqSCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Kugy", content: "<h2>Bab 1: Kugy</h2><p>Kugy adalah gadis yang aneh. Setidaknya begitulah pendapat kebanyakan orang. Ia suka menulis dongeng, berbicara dengan dewa-dewa khayalannya, dan melipat perahu kertas yang ia hanyutkan di sungai.</p><p>\"Setiap perahu kertas membawa sebuah cerita,\" katanya sambil meletakkan perahu mungilnya di permukaan air. \"Dan sungai akan membawanya ke tempat yang tepat.\"</p><p>Di usia 18 tahun, Kugy masuk universitas di Bandung. Ia memilih jurusan sastra—tentu saja—karena menulis adalah satu-satunya hal yang ia tahu cara melakukannya dengan baik.</p><p>Di kota dingin itu, di antara deretan kafe dan jalanan berbatu, Kugy menemukan dunia baru yang penuh warna. Dan juga seseorang yang akan mengubah hidupnya.</p><p>Tapi Kugy belum tahu itu. Ia masih sibuk melipat perahu-perahu kertasnya, menuliskan kisah-kisah yang belum pernah diceritakan siapapun.</p>" },
             { title: "Bab 2: Keenan", content: "<h2>Bab 2: Keenan</h2><p>Keenan bermimpi menjadi pelukis. Tapi ayahnya bermimpi Keenan menjadi insinyur. Di antara dua mimpi yang bertabrakan ini, Keenan terombang-ambing.</p><p>Ia masuk jurusan teknik seperti keinginan ayahnya, tapi hatinya selalu di kanvas. Setiap malam, diam-diam ia melukis di kamar kosnya yang sempit, mencurahkan semua perasaan yang tidak bisa ia ungkapkan dengan kata-kata.</p><p>Ketika pertama kali bertemu Kugy, Keenan merasa menemukan warna yang selama ini hilang dari paletnya. Gadis itu seperti cat air yang berlari bebas di atas kertas—tidak bisa diprediksi, tidak bisa dikendalikan, tapi indah.</p><p>\"Kamu melukis?\" tanya Kugy sambil mengintip kanvas Keenan. \"Lukisanmu seperti puisi yang diam. Indah tapi menyimpan banyak cerita.\"</p><p>Tidak ada yang pernah mendeskripsikan lukisannya seperti itu. Dan sejak saat itu, Keenan tahu bahwa Kugy adalah seseorang yang istimewa.</p>" },
@@ -140,7 +140,7 @@ const books = [
         author: "Eric Ries",
         genre: "bisnis",
         color: "#AD1457",
-        cover: "https://covers.openlibrary.org/b/isbn/9780307887894-L.jpg",
+        cover: "https://books.google.com/books/content?id=DSxjDwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Memulai", content: "<h2>Bab 1: Memulai</h2><p>Startup bukan hanya tentang dua orang di garasi yang membuat aplikasi. Startup adalah institusi manusia yang dirancang untuk menciptakan produk atau layanan baru dalam kondisi ketidakpastian yang ekstrem.</p><p>Metode tradisional bisnis tidak bekerja untuk startup. Anda tidak bisa membuat rencana bisnis 5 tahun ketika Anda bahkan tidak tahu apakah ada orang yang menginginkan produk Anda.</p><p>Yang dibutuhkan adalah pendekatan ilmiah. Hipotesis, eksperimen, pengukuran, dan pembelajaran. Inilah inti dari metodologi Lean Startup.</p><p>Setiap startup dimulai dengan asumsi. Asumsi tentang siapa pelanggan Anda, apa masalah mereka, dan bagaimana produk Anda menyelesaikan masalah itu. Tugas pertama Anda bukan membangun produk sempurna—melainkan menguji asumsi-asumsi ini secepat mungkin.</p><p>\"Pertanyaannya bukan 'Bisakah produk ini dibuat?' melainkan 'Haruskah produk ini dibuat?'\"</p>" },
             { title: "Bab 2: Build-Measure-Learn", content: "<h2>Bab 2: Build-Measure-Learn</h2><p>Inti dari Lean Startup adalah loop Build-Measure-Learn. Bangun sesuatu, ukur hasilnya, dan belajar dari data tersebut. Kemudian ulangi.</p><p><strong>Build:</strong> Buat MVP (Minimum Viable Product)—versi paling sederhana dari produk Anda yang memungkinkan Anda mulai belajar. Ini bukan tentang membuat produk sempurna, tapi tentang memulai proses pembelajaran.</p><p><strong>Measure:</strong> Gunakan metrik yang benar-benar penting. Bukan vanity metrics seperti jumlah download atau page views, tapi actionable metrics seperti tingkat konversi atau customer retention.</p><p><strong>Learn:</strong> Berdasarkan data, putuskan apakah akan bertahan dengan strategi saat ini atau melakukan pivot—perubahan fundamental dalam strategi.</p><p>Semakin cepat Anda melalui loop ini, semakin cepat Anda belajar. Dan di dunia startup, kecepatan belajar adalah keunggulan kompetitif yang paling penting.</p>" },
@@ -153,7 +153,7 @@ const books = [
         author: "Yuval Noah Harari",
         genre: "non-fiksi",
         color: "#37474F",
-        cover: "https://covers.openlibrary.org/b/isbn/9780062316097-L.jpg",
+        cover: "https://books.google.com/books/content?id=PPdZswEACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api",
         chapters: [
             { title: "Bab 1: Revolusi Kognitif", content: "<h2>Bab 1: Revolusi Kognitif</h2><p>Sekitar 70.000 tahun yang lalu, sesuatu yang luar biasa terjadi pada otak Homo sapiens. Para ilmuwan menyebutnya Revolusi Kognitif—kemampuan untuk berpikir abstrak, berkomunikasi dengan bahasa yang kompleks, dan yang paling penting, menciptakan fiksi.</p><p>Ya, fiksi. Kemampuan untuk berbicara tentang hal-hal yang tidak ada secara fisik inilah yang membedakan kita dari spesies lain. Seekor monyet bisa berteriak \"Hati-hati, ada singa!\" Tapi hanya manusia yang bisa berkata \"Singa adalah roh penjaga suku kita.\"</p><p>Kemampuan ini memungkinkan kerja sama dalam skala besar. Dua monyet yang tidak saling kenal tidak akan bisa bekerja sama. Tapi dua manusia yang percaya pada mitos yang sama—baik itu agama, negara, atau uang—bisa membangun piramida.</p><p>Uang adalah fiksi paling sukses yang pernah diciptakan manusia. Selembar kertas tidak memiliki nilai intrinsik. Nilainya ada karena kita semua percaya ia bernilai.</p><p>Negara, perusahaan, hak asasi manusia—semua ini adalah fiksi yang kita ciptakan bersama. Dan justru fiksi-fiksi inilah yang memungkinkan peradaban manusia berkembang.</p>" },
             { title: "Bab 2: Revolusi Pertanian", content: "<h2>Bab 2: Revolusi Pertanian</h2><p>Sekitar 10.000 tahun yang lalu, manusia melakukan transisi dari pemburu-pengumpul menjadi petani. Kebanyakan buku sejarah menyebut ini sebagai kemajuan besar. Harari menyebutnya \"penipuan terbesar dalam sejarah.\"</p><p>Sebagai pemburu-pengumpul, manusia memiliki diet yang beragam, bekerja lebih sedikit, dan memiliki lebih sedikit penyakit. Petani awal justru bekerja lebih keras, makan lebih monoton, dan lebih rentan terhadap kelaparan.</p><p>Lalu mengapa mereka beralih ke pertanian? Karena pertanian memungkinkan produksi makanan dalam jumlah lebih besar per hektar. Lebih banyak makanan berarti lebih banyak manusia bisa hidup. Populasi meledak.</p><p>Tapi lebih banyak manusia tidak berarti manusia yang lebih bahagia. Paradoks ini terus berlanjut hingga hari ini: kemajuan teknologi meningkatkan jumlah manusia, tapi belum tentu meningkatkan kebahagiaan masing-masing individu.</p><p>Gandum tidak dijinakkan oleh manusia. Manusialah yang dijinakkan oleh gandum.</p>" },
@@ -166,7 +166,7 @@ const books = [
         author: "Eka Kurniawan",
         genre: "sastra",
         color: "#4E342E",
-        cover: "https://covers.openlibrary.org/b/isbn/9786020989181-L.jpg",
+        cover: "https://books.google.com/books/content?id=YLo8DwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Dewi Ayu Bangkit", content: "<h2>Bab 1: Dewi Ayu Bangkit</h2><p>Pada suatu hari di bulan Maret, Dewi Ayu bangkit dari kuburnya setelah dua puluh satu tahun meninggal. Ia berjalan pulang ke rumahnya dengan gaun pengantin yang sudah lusuh dimakan tanah, melewati jalan-jalan Halimunda yang terkejut menyambut kedatangannya.</p><p>Halimunda—kota pesisir kecil di Jawa—tidak pernah sepi dari cerita-cerita aneh. Tapi seorang perempuan yang bangkit dari kematian adalah sesuatu yang baru, bahkan untuk standar kota itu.</p><p>Dewi Ayu adalah perempuan tercantik yang pernah dilahirkan di Halimunda. Kecantikannya bukan sekadar fisik—ia memancarkan aura yang membuat setiap orang yang melihatnya terpesona dan sekaligus ketakutan.</p><p>\"Cantik itu luka,\" katanya pernah pada suatu malam. Dan ia tahu betul artinya. Kecantikannya telah membawa lebih banyak penderitaan daripada kebahagiaan dalam hidupnya.</p><p>Kini ia kembali, membawa semua memori dari kehidupan lamanya dan mungkin juga dari kematiannya.</p>" },
             { title: "Bab 2: Masa Lalu Halimunda", content: "<h2>Bab 2: Masa Lalu Halimunda</h2><p>Halimunda dibangun di atas sejarah yang berlapis-lapis. Belanda datang dan membawa peradaban yang mereka klaim unggul. Jepang datang dan membawa kekejaman. Kemerdekaan datang dan membawa harapan yang belum tentu terpenuhi.</p><p>Dewi Ayu lahir dari perpaduan dua dunia—darah Belanda dan darah Jawa. Di tubuhnya mengalir sejarah kolonialisasi yang rumit, penuh kontradiksi, dan menyakitkan.</p><p>Ia tumbuh di masa pendudukan Jepang, di mana kecantikannya menjadi kutukan. Ia dipaksa menjadi perempuan penghibur—sebuah eufemisme untuk kekejaman yang tak terkatakan.</p><p>Tapi Dewi Ayu tidak hancur. Ia bertahan dengan cara yang hanya bisa dipahami oleh mereka yang pernah menatap jurang kemanusiaan dan memutuskan untuk tetap berdiri.</p><p>\"Aku tidak akan membiarkan mereka menghancurkanku,\" bisiknya pada malam-malam yang gelap. \"Mereka bisa mengambil tubuhku, tapi jiwaku tetap milikku.\"</p>" },
@@ -179,7 +179,7 @@ const books = [
         author: "Carol S. Dweck",
         genre: "self-help",
         color: "#00838F",
-        cover: "https://covers.openlibrary.org/b/isbn/9780345472328-L.jpg",
+        cover: "https://books.google.com/books/content?id=fdjqz0TPL2wC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Fixed vs Growth Mindset", content: "<h2>Bab 1: Fixed vs Growth Mindset</h2><p>Ada dua jenis mindset yang menentukan bagaimana kita menjalani hidup. Fixed mindset percaya bahwa kecerdasan dan bakat adalah sifat tetap yang tidak bisa diubah. Growth mindset percaya bahwa kemampuan bisa dikembangkan melalui usaha dan pembelajaran.</p><p>Seseorang dengan fixed mindset akan berkata: \"Saya tidak bisa matematika.\" Seseorang dengan growth mindset akan berkata: \"Saya belum bisa matematika.\" Satu kata kecil—'belum'—membuat perbedaan yang sangat besar.</p><p>Penelitian menunjukkan bahwa anak-anak yang dipuji karena kecerdasannya (\"Kamu pintar sekali!\") cenderung mengembangkan fixed mindset. Mereka takut gagal karena kegagalan berarti mereka tidak pintar.</p><p>Sebaliknya, anak-anak yang dipuji karena usahanya (\"Kamu bekerja keras sekali!\") mengembangkan growth mindset. Mereka melihat tantangan sebagai kesempatan untuk belajar.</p><p>Kabar baiknya: mindset bukanlah sesuatu yang permanen. Kita bisa belajar mengubah fixed mindset menjadi growth mindset. Dan perubahan ini bisa mengubah seluruh hidup kita.</p>" },
             { title: "Bab 2: Kekuatan 'Belum'", content: "<h2>Bab 2: Kekuatan 'Belum'</h2><p>Di sebuah sekolah di Chicago, siswa yang tidak lulus ujian tidak mendapat nilai \"Gagal\" tapi \"Belum Lulus.\" Perubahan kecil ini mengubah segalanya.</p><p>\"Gagal\" terasa final. Seperti vonis. Tidak ada harapan. \"Belum Lulus\" terasa sementara. Seperti perjalanan yang belum selesai. Ada harapan.</p><p>Otak kita merespons kedua frasa ini secara berbeda. Ketika kita mendengar \"gagal,\" amygdala kita aktif—bagian otak yang memproses ketakutan. Ketika kita mendengar \"belum,\" prefrontal cortex kita aktif—bagian otak yang memproses perencanaan dan strategi.</p><p>Cobalah latihan ini: setiap kali Anda merasa tidak mampu, tambahkan kata \"belum\" di akhir. \"Saya tidak bisa berbicara di depan publik\" menjadi \"Saya belum bisa berbicara di depan publik.\" Rasakan perbedaannya.</p><p>\"Belum\" adalah kata paling powerful dalam kosakata growth mindset. Ia membuka pintu yang tadinya tertutup rapat.</p>" }
@@ -191,7 +191,7 @@ const books = [
         author: "Jonathan Black",
         genre: "non-fiksi",
         color: "#263238",
-        cover: "https://covers.openlibrary.org/b/isbn/9780857382955-L.jpg",
+        cover: "https://books.google.com/books/content?id=QhCKCwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api",
         chapters: [
             { title: "Bab 1: Sejarah Alternatif", content: "<h2>Bab 1: Sejarah Alternatif</h2><p>Bagaimana jika sejarah yang kita pelajari di sekolah hanyalah versi resmi yang telah disunting? Bagaimana jika ada lapisan-lapisan cerita yang sengaja disembunyikan dari publik?</p><p>Setiap peradaban besar memiliki tradisi esoteris—pengetahuan rahasia yang hanya diwariskan kepada segelintir orang terpilih. Dari Mystery Schools Mesir kuno hingga perkumpulan rahasia di Eropa abad pertengahan.</p><p>Buku ini bukan tentang teori konspirasi. Ini tentang melihat sejarah dari sudut pandang yang berbeda—sudut pandang yang mempertimbangkan dimensi spiritual dan mistis yang sering diabaikan oleh sejarawan modern.</p><p>Para filsuf Yunani seperti Plato dan Pythagoras tidak hanya matematikawan dan pemikir logis. Mereka juga adalah inisiat dari tradisi-tradisi mistis yang telah ada ribuan tahun sebelum mereka.</p><p>Pertanyaannya bukan \"Apakah ini benar?\" melainkan \"Apakah kita cukup berani untuk mempertanyakan apa yang kita anggap benar?\"</p>" },
             { title: "Bab 2: Piramida dan Misteri", content: "<h2>Bab 2: Piramida dan Misteri</h2><p>Piramida Agung Giza tetap menjadi salah satu misteri terbesar dalam sejarah manusia. Bagaimana peradaban tanpa teknologi modern mampu membangun struktur yang begitu presisi?</p><p>Teori konvensional mengatakan bahwa piramida dibangun oleh ribuan budak yang menyeret batu-batu raksasa melalui lereng pasir. Tapi bukti arkeologi terbaru menunjukkan bahwa para pembangun piramida adalah pekerja terampil yang dibayar dan dihormati.</p><p>Yang lebih menarik adalah presisi matematis piramida. Rasio keliling alas terhadap tingginya menghasilkan angka yang sangat mendekati 2π. Kebetulan? Atau pengetahuan yang sangat maju?</p><p>Piramida bukan sekadar makam raja. Struktur internalnya—lorong-lorong, ruang-ruang, dan shaft—menunjukkan fungsi yang jauh lebih kompleks. Beberapa peneliti percaya piramida adalah semacam \"mesin\" yang memanfaatkan energi alam.</p><p>Kita mungkin tidak akan pernah tahu jawaban pastinya. Tapi ketidaktahuan itu sendiri adalah undangan untuk terus mencari.</p>" }
@@ -209,13 +209,11 @@ function renderBooks(filteredBooks) {
         card.className = 'book-card';
         card.dataset.genre = book.genre;
         card.innerHTML = `
-            <div class="book-cover" style="background: linear-gradient(135deg, ${book.color}, ${adjustColor(book.color, 40)});">
-                <img src="${book.cover}" alt="${book.title}" loading="lazy"
-                     onerror="this.style.display='none'; this.nextElementSibling.style.display='flex';">
-                <div class="cover-fallback" style="display:none;">
-                    <span style="color:#fff; font-size:1rem; text-align:center; padding:20px; font-family:'Playfair Display',serif;">
-                        ${book.title}
-                    </span>
+            <div class="book-cover" style="background: linear-gradient(145deg, ${book.color}, ${adjustColor(book.color, 50)});">
+                <div class="cover-design">
+                    <span class="cover-title">${book.title}</span>
+                    <div class="cover-line"></div>
+                    <span class="cover-author">${book.author}</span>
                 </div>
                 <span class="book-genre-badge">${capitalize(book.genre)}</span>
             </div>
@@ -225,6 +223,21 @@ function renderBooks(filteredBooks) {
                 <span class="book-read-btn">Baca Sekarang</span>
             </div>
         `;
+
+        // Load cover image
+        const coverEl = card.querySelector('.book-cover');
+        const img = new Image();
+        img.onload = function() {
+            // Check if image is a valid cover (not a tiny placeholder)
+            if (this.naturalWidth > 50 && this.naturalHeight > 50) {
+                coverEl.classList.add('has-image');
+                coverEl.insertBefore(this, coverEl.firstChild);
+            }
+        };
+        img.alt = book.title;
+        img.loading = 'lazy';
+        img.src = book.cover;
+
         card.addEventListener('click', () => openReader(book));
         bookGrid.appendChild(card);
     });
@@ -368,15 +381,8 @@ document.addEventListener('keydown', (e) => {
 // ===== MENU IMAGE FALLBACKS =====
 document.querySelectorAll('.menu-img img').forEach(img => {
     img.addEventListener('error', function() {
+        // Hide broken image, the parent .menu-img already has a gradient background
         this.style.display = 'none';
-        const fallback = document.createElement('div');
-        fallback.className = 'img-fallback';
-        fallback.style.background = 'linear-gradient(135deg, var(--primary), var(--primary-light))';
-        fallback.textContent = this.alt;
-        fallback.style.color = '#fff';
-        fallback.style.fontSize = '1rem';
-        fallback.style.fontWeight = '600';
-        this.parentElement.appendChild(fallback);
     });
 });
 
